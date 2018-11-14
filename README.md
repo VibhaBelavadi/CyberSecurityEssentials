@@ -23,3 +23,8 @@ The following use cases were implemented along, as adapted from the paper. The f
 
 Here Tϵ= ϵ if data sanitization is required. The dataset used is adult.csv file
 The user is required to log into his role and operation. Upon doing so, the program automatically picks up risk level of the user and grants him access accordingly.
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell

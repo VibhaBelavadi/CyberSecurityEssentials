@@ -14,17 +14,14 @@ As the user privacy clearance decreases (goes from medium risk to high risk), th
 
 The following use cases were implemented along, as adapted from the paper. The final column is the parameter used to attain that level of differential privacy access:
 
-#   | Role            | Operation          | Risk        | Utility     | Privacy Clearance parameter
---- | --------------- | ------------------ | ----------- | ----------- | ---------------------------
-1.  | HR Manager      | HR view (internal) | Low         | Full access | Tϵ > 1
-2.  | HR Manager      | HR view (external) | Medium      | Aggregated  | Tϵ ∈ ]0.1, 1]
-3.  | HR Developer    | Testing data       | Medium-high | Anonymized  | Tϵ ∈ ]0.05, 0.1]
-4.  | HR Benchmarking | Benchmarking       | High        | Anonymized  | Tϵ ≤ 0.05
+Sr.   | Role            | Operation          | Risk        | Utility     | Privacy Clearance parameter
+----- | --------------- | ------------------ | ----------- | ----------- | ----------------------------
+1.    | HR Manager      | HR view (internal) | Low         | Full access | Tϵ > 1
+2.    | HR Manager      | HR view (external) | Medium      | Aggregated  | Tϵ ∈ ]0.1, 1]
+3.    | HR Developer    | Testing data       | Medium-high | Anonymized  | Tϵ ∈ ]0.05, 0.1]
+4.    | HR Benchmarking | Benchmarking       | High        | Anonymized  | Tϵ ≤ 0.05
 
 Here Tϵ= ϵ if data sanitization is required. The dataset used is adult.csv file
 The user is required to log into his role and operation. Upon doing so, the program automatically picks up risk level of the user and grants him access accordingly.
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+

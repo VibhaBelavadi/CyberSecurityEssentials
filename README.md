@@ -1,8 +1,6 @@
 # Differential Privacy based Access control
 
 CS 6301.0U1 Project		
-Name: Vibha Belavadi	
-Netid: vxb141530
 
 Project on: Differential Privacy based Access control
 
@@ -25,5 +23,3 @@ HR Benchmarking | Benchmarking       | High        | Anonymized  | Tϵ ≤ 0.05
 
 Here Tϵ= ϵ if data sanitization is required. The dataset used is adult.csv file
 The user is required to log into his role and operation. Upon doing so, the program automatically picks up risk level of the user and grants him access accordingly.
-
-
